@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Login } from './login';
+import { BasicTitle } from './title.composition';
 
 it('renders with the correct text', () => {
-  const { getByText } = render(<Login  onSubmit={()=>alert()} />);
-  const rendered = getByText('Email');
+  const { getByText } = render(<BasicTitle />);
+  const rendered = getByText('hello world!');
   expect(rendered).toBeTruthy();
 });

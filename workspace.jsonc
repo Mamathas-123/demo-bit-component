@@ -41,6 +41,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
+        "@mamathas/task-scope.title": "^0.0.1",
         "@teambit/defender.eslint-linter": "1.0.14",
         "@teambit/defender.jest-tester": "1.0.12",
         "@teambit/defender.prettier-formatter": "1.0.7",

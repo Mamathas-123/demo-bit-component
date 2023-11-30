@@ -3,6 +3,6 @@ import { Login } from './login';
 
 export const BasicLogin = () => {
   return (
-    <Login/>
+    <Login onSubmit={()=>alert()}  />
   );
 }
