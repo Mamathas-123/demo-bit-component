@@ -11,9 +11,15 @@
 {
     "button": {
         "scope": "mamathas.task-scope",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "task-scope/button"
+    },
+    "dropdown": {
+        "scope": "mamathas.task-scope",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "task-scope/dropdown"
     },
     "envs/my-react-env": {
         "scope": "mamathas.task-scope",
@@ -23,15 +29,27 @@
     },
     "input": {
         "scope": "mamathas.task-scope",
-        "version": "0.0.3",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "task-scope/input"
     },
     "login": {
         "scope": "mamathas.task-scope",
-        "version": "0.0.2",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "task-scope/login"
+    },
+    "multiselect": {
+        "scope": "mamathas.task-scope",
+        "version": "0.0.2",
+        "mainFile": "index.ts",
+        "rootDir": "task-scope/multiselect"
+    },
+    "select": {
+        "scope": "mamathas.task-scope",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "task-scope/select"
     },
     "title": {
         "scope": "mamathas.task-scope",

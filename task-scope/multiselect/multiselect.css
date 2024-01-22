@@ -1,0 +1,16 @@
+.custom-select {
+    min-width: 350px;
+  }
+  
+  .select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 60%;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+  }
